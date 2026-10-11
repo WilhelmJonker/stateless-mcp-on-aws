@@ -1,0 +1,4 @@
+name         = "mcp-server"
+jwt_issuer   = "https://login.microsoftonline.com/<tenant-id>/v2.0"
+jwt_audience = "api://<app-id>"
+required_scope = "mcp.read"
